@@ -96,3 +96,12 @@ usecase/
 - Import as Maven project
 - Enable Annotation Processing (for future MapStruct/Lombok)
 - Java SDK: 25
+# Diretrizes do Projeto
+
+## Stack Tecnológica
+- **Linguagem:** Java
+- **Versão:** 25 (FIXA - Não alterar)
+
+## Regras de Modificação
+1. Arquivos de configuração de build (`pom.xml` / `build.gradle`) são LER APENAS no que tange à versão do SDK.
+2. Não utilize sintaxes ou APIs introduzidas em versões superiores a Java [25].
